@@ -11,6 +11,12 @@ mongoose.connect(process.env.MONGO_URL)
 
 //middleware
 app.use(express.json());
+app.use(cors());
+app.get("*", (req, res, next) => {
+  res.status(200).json({
+    message: "bad request",
+  });
+});
 
 app.use('/', require('./routes/authRoutes'));
 
