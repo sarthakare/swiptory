@@ -25,6 +25,7 @@ export default function Login() {
         toast.error(data.error);
       } else {
         setData({});
+        toast.success("Login Sucessful. welcome...");
         navigate("/");
       }
     } catch (error) {
