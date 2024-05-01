@@ -1,0 +1,38 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  display: flex;
+  gap: 3.5rem;
+  padding: 3.3rem 3.5rem 0 4.3rem;
+  white-space: nowrap;
+}
+
+.cards {
+  position: relative;
+  max-width: 30vh;
+  width: 25%;
+  cursor: pointer;
+}
+
+.card_name {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: wrap;
+}
+
+img {
+  background-size: cover;
+  border-radius: 1.5rem;
+  display: block;
+  filter: brightness(60%);
+  width: 100%;
+}

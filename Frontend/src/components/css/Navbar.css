@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+  display: flex;
+  max-height: max-content;
+  width: 100vw;
+  justify-content: space-between;
+  font-family: Arial;
+  box-shadow: 0 0 15px 0 #00000026;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.home{
+  color: black;
+}
+.register{
+  color: white;
+}
+.login{
+  color: white;
+}
+.navbar_header {
+  padding: 3vh;
+  margin-left: 1vw;
+  font-size: 32px;
+  font-weight: 600;
+  cursor: pointer;
+  color: black;
+}
+
+.navbar_buttons {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar_btn_register {
+  padding: 2vh;
+  text-align: center;
+  background-color: #FF7373;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar_btn_login {
+  padding: 2vh;
+  text-align: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: #73ABFF;
+  border-radius: 2rem;
+  width: 100px;
+  cursor: pointer;
+  color: white;
+}
